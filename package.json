@@ -4,13 +4,24 @@
   "description": "Klump component for React",
   "author": "Klump-Inc",
   "license": "MIT",
-  "repository": "Klump-Inc/klump-react",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Klump-Inc/klump-react.git"
+  },
+  "keywords": [
+    "Klump",
+    "Vue",
+    "Vuejs",
+    "Vue 2",
+    "Klump Checkout",
+    "Pay With Klump"
+  ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
