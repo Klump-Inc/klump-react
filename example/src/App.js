@@ -36,7 +36,7 @@ const App = () => {
           },
           items: [{
             name: product,
-            quantity,
+            quantity: parseInt(quantity),
             unit_price: productPrice
           }]
 
