@@ -1,6 +1,6 @@
 {
   "name": "klump-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Klump component for React",
   "author": "Klump-Inc",
   "license": "MIT",
@@ -35,7 +35,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": ">=16.0.0 <19.0.0",
+    "react-dom": ">=16.0.0 <19.0.0"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
